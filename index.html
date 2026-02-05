@@ -405,7 +405,52 @@ intent: ["New quote", "Existing policy", "Just a question"],
 contact: ["Phone", "Email"],
 urgency: ["Today", "This week", "No rush"]
 };
-
+const EXTRA_DEMO_QA = [
+{
+q: "What types of insurance do you offer for small businesses?",
+a: "We help with key business coverages like General Liability, Professional Liability (E&O), Workers’ Compensation, Commercial Auto, Cyber Liability, and Business Owner’s Policy (BOP). I can suggest the best mix based on your industry and team size."
+},
+{
+q: "What is the difference between General Liability and Professional Liability?",
+a: "General Liability usually covers third-party bodily injury, property damage, and advertising-related claims. Professional Liability (E&O) is focused on claims related to professional services, advice, errors, or omissions."
+},
+{
+q: "Do you provide coverage for LLCs in multiple states?",
+a: "Yes—multi-state businesses can be supported. Requirements vary by state, so we first confirm where you operate, then recommend compliant coverage for each location."
+},
+{
+q: "What are the most common risks for an e-commerce business?",
+a: "Common risks include data/privacy incidents, product liability, shipping-related issues, chargeback/fraud exposure, and business interruption. A typical starting point is Cyber + General Liability + Product Liability."
+},
+{
+q: "How does the claims process work step by step?",
+a: "Typical flow: 1) Report the claim, 2) Submit documents/photos, 3) Carrier assigns an adjuster, 4) Investigation/review, 5) Decision and payment or resolution. We can guide you through each step."
+},
+{
+q: "How can I reduce premium cost without losing essential coverage?",
+a: "You can often lower cost by adjusting deductibles, removing duplicate coverage, improving risk controls, and bundling policies. We focus on keeping critical protections while optimizing price."
+},
+{
+q: "What documents do I need to activate a policy?",
+a: "Usually: business legal name/entity info, address, operations description, revenue/payroll estimates, prior insurance/loss history, and owner contact details. Exact requirements depend on policy type."
+},
+{
+q: "Do you offer a consultation before purchase?",
+a: "Absolutely. We can do a short discovery call or chat to understand your business and recommend options before you buy anything."
+},
+{
+q: "How fast can coverage start after payment?",
+a: "In many cases coverage can start the same day once underwriting requirements are met and payment is completed. Effective date depends on carrier approval and policy terms."
+},
+{
+q: "Can you compare two plans for a startup with five employees?",
+a: "Yes. Share your industry, state, and target budget, and I’ll provide a side-by-side comparison with limits, deductibles, exclusions, and monthly/annual cost estimates."
+},
+{
+q: "Can you recommend an insurance plan for a digital agency?",
+a: "A common baseline for digital agencies is Professional Liability (E&O), General Liability, and Cyber Liability. If you have employees, add Workers’ Comp where required; if you use vehicles, add Commercial Auto."
+}
+];
 // ===================================
 // 3) SIMPLE DEMO FLOW (state machine)
 // ===================================
@@ -654,4 +699,5 @@ reset();
 // }
 </script>
 </body>
+
 </html>
